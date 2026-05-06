@@ -5,7 +5,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
-public class webTestPage
+public class webPageTest
 {
     private static WebDriver driver;
     @BeforeTest
@@ -14,7 +14,7 @@ public class webTestPage
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.get("https://sarvarbegum-coder.github.io/LAB_1/");
+        driver.get("https://Prathibhabr.github.io/demo_jenkins");
     }
     @Test
             public void titleValidationTest()
@@ -31,5 +31,4 @@ public class webTestPage
         driver.quit();
     }
 }
-{
-}
+
